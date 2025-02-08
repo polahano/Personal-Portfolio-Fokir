@@ -57,7 +57,10 @@
 .navbar .navbar-list .list-item a.selected {
   color: #ff305b;
 }
+/* 
 
+
+*/
 /* Home Section */
 .home-section {
   background-image: url("../assets/images/header.jpeg");
@@ -71,7 +74,7 @@
 }
 
 .home-section .container {
-  padding: 200px 0px;
+  padding: 3vw 3vw;
 }
 
 .home-section .text {
@@ -82,13 +85,13 @@
 .home-section .text .hello {
   font-weight: 500;
   display: inline-block;
-  font-size: 20px;
+  font-size: 3.5vw;
 }
 
 .home-section .text .alex-smith {
   font-weight: 900;
   color: #ff305b;
-  font-size: 70px;
+  font-size: 7vw;
 }
 
 @keyframes title-animation1 {
@@ -442,19 +445,18 @@
 .feedback-section .container {
   padding: 20px;
   height: 70vh;
-  position: relative;
   overflow: hidden;
 }
 
 .feedback-section .cards-container {
-  width: 180%;
-  position: absolute;
+  margin-inline: auto;
 }
 
 .feedback-section .cards-container .card {
   text-align: start;
   width: 800px;
   height: 300px;
+  margin-inline: auto;
   display: inline-block;
   background-color: #f1f1f1;
   border-radius: 5px;
@@ -467,14 +469,6 @@
   top: 0px;
   left: 0px;
   padding: 30px;
-}
-.feedback-section .cards-container .card1 {
-  margin-right: 400px;
-  margin-left: 40px;
-}
-
-.feedback-section .cards-container .card2 {
-  background-color: aqua;
 }
 
 .feedback-section .cards-container .card .triangle {
@@ -522,6 +516,27 @@
   color: gray;
   font-style: italic;
   margin-bottom: 10px;
+}
+
+.feedback-section .container .circles {
+  margin-inline: auto;
+}
+
+.feedback-section .container .circle-border {
+  height: 20px;
+  width: 20px;
+  border: 2px solid #ff305b;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.feedback-section .container .circle-solid {
+  height: 20px;
+  width: 40px;
+  background-color: #ff305b;
+  border: 2px solid #ff305b;
+  border-radius: 100px;
+  display: inline-block;
 }
 
 /* Blog Section */

@@ -1,0 +1,56 @@
+/* Extra small devices (phones, 600px and down) */
+@media screen and (max-width: 768px) {
+  .sm-25 {
+    width: 25%;
+  }
+
+  .sm-33 {
+    width: 33.333%;
+  }
+
+  .sm-50 {
+    width: 50%;
+  }
+
+  .sm-100 {
+    width: 100%;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media screen and (min-width: 768px) {
+  .md-25 {
+    width: 25%;
+  }
+
+  .md-33 {
+    width: 33.333%;
+  }
+
+  .md-50 {
+    width: 50%;
+  }
+
+  .md-100 {
+    width: 100%;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .lg-25 {
+    width: 25%;
+  }
+
+  .lg-33 {
+    width: 33.333%;
+  }
+
+  .lg-50 {
+    width: 50%;
+  }
+
+  .lg-100 {
+    width: 100%;
+  }
+}
