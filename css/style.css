@@ -359,10 +359,6 @@
   text-align: center;
 }
 
-.portfolio-section .container {
-  /* padding-inline: 20px; */
-}
-
 .portfolio-section .container .sorting .sorting-list {
   list-style: none;
 }
@@ -379,10 +375,6 @@
 
 .portfolio-section .container .sorting .sorting-list .selected {
   color: #ff305b;
-}
-
-.portfolio-section .cards-container {
-  /* background-color: #999999; */
 }
 
 .portfolio-section .cards-container .card {
@@ -466,10 +458,6 @@
 
 .feedback-section {
   text-align: center;
-}
-
-.feedback-section .container {
-  /* overflow: hidden; */
 }
 
 .feedback-section .cards-container {
